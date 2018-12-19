@@ -22,6 +22,4 @@ def find_the_cheese(cheese_types)
   end
 end
 
-a = [ "a", "b", "c" ]
-a.include?("b")   #=> true
-a.include?("z")   #=> false
+
