@@ -3,13 +3,12 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)
-  # Your code here
+  call_array = []
+  calls.collect { |call| call_array << call + "!" }
+  return call_array
 end
 
-a.collect { |x| x + "!" }         #=> ["a!", "b!", "c!", "d!"]
 
-summon_captain_planet(planeteer_calls)
-#=> ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
 def long_planeteer_calls# code an argument here
   # Your code here
