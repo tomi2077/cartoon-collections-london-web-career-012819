@@ -10,8 +10,8 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.each |i|
-    if i.count > 4
+  calls_long[i]
+    if i.length > 4
       return true
     else 
       return false
