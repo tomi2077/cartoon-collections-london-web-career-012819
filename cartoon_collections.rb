@@ -10,7 +10,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls_long)
-  for call in calls_long
+  while i < 
     
   return true 
 end
