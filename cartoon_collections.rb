@@ -11,9 +11,7 @@ end
 
 def long_planeteer_calls(calls_long)
   for i in calls_long
-
-  calls_long.include? i.length > 4
-    if i.length > 4
+    if calls_long.include? i.length > 4
       return true
     else 
       return false
